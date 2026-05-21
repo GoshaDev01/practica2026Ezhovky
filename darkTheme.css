@@ -1,3 +1,5 @@
+@import url("base.css");
+
 body{
     background-color: #161b21;
 }
@@ -32,7 +34,6 @@ body{
  .logo{
     background: rgb(34,37,41);
     color: white;
-    
 }
 .en{
     background: rgb(34,37,41) !important;
@@ -46,7 +47,6 @@ body{
 .sidebar .a-but:hover {
     transition: 0.2s;
     background: #4e4e4e !important;
-
 }
 p{
     color:white;
@@ -63,38 +63,30 @@ p{
 .roo:hover {
     background-color: rgb(56, 59, 64)!important;
 }
-
- h5{
+h5{
     color: white;
- }
- i{
+}
+i{
     color: white;
- }
- .input-group-text{
+}
+.input-group-text{
     color: white;
- }
-
+}
 .modal-content{
-    background-color: rgb(53, 57, 62);;
+    background-color: rgb(53, 57, 62);
 }
 div{
     color: white;
 }
-
 .ggg{
     filter: invert(1);
 }
-
 .stat-yellow { background: #d7b352; }
 .stat-yellow .stat-footer { background: #bfa048; }
-
 .stat-blue { background: #6399d4; }
 .stat-blue .stat-footer { background: #5b8ec4; }
-
 .stat-green { background: #8fba53; }
 .stat-green .stat-footer { background: #82a94c; }
-
-
 .offcanvas-header{
     color: white;
 }
@@ -102,20 +94,15 @@ div{
 .sidebar .a-but {
     display: flex;
     align-items: center;
-
     padding: 15px 20px;
     width: 100%;
-
     color: #ccc;
     text-decoration: none;
-
     background: none;
     border: none;
 }
-
 .offcanvas{
     background:  rgb(45,48,52);
-    /* border: none; */
     box-shadow: none;
 }
 .offcanvas a{
@@ -126,9 +113,6 @@ div{
     transition: 0.2s;
     background: #4e4e4e !important;
 }
-
 .theme-icon {
-
     color: #facc15;
-
 }
