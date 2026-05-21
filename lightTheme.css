@@ -1,0 +1,125 @@
+body {
+    background-color: #f1f1f1;
+}
+.card {
+    background-color: rgb(248,249,250)!important;
+}
+
+.text-center,
+.form-group,
+.auth {
+    color: #000;
+}
+
+/* Инпуты */
+.form-control,
+.auth {
+    background-color: #EEEEEE;
+    border-radius: 0;
+}
+
+.auth {
+    border: none;
+}
+
+/* Кнопка */
+.toggle {
+    border: none;
+}
+
+/* Sidebar */
+#wrapper {
+    background-color: #1F2833;
+}
+
+.sidebar {
+    height: 100vh;
+    background: rgb(248,249,250);
+    color: #000000 !important;
+}
+
+.sidebar-heading,
+.logo {
+    background: #e5e5e5 !important;
+    color: #000000;
+}
+
+.en {
+    background: #e5e5e5 !important;
+}
+
+
+
+
+/* Hover */
+.sidebar a:hover,
+.sidebar .a-but:hover {
+    transition: 0.2s;
+    background: #bebebe !important;
+}
+
+.quick-card {
+    background: #eee;
+}
+.quick-card:hover {
+    background: #ddd;
+}
+.roo {
+    background-color: #eee!important;
+}
+.roo:hover {
+    background-color: rgb(228, 228, 228) !important;
+}
+
+
+
+
+.stat-yellow { background: #ffd768; }
+.stat-yellow .stat-footer { background: #e7c56a; }
+
+.stat-blue { background: #97c9ff; }
+.stat-blue .stat-footer { background: #8db9e9; }
+
+.stat-green { background: #b1da79; }
+.stat-green .stat-footer { background: #9ec26b; }
+
+
+
+
+.sidebar a,
+.sidebar .a-but {
+    display: flex;
+    align-items: center;
+
+    padding: 15px 20px;
+    width: 100%;
+
+    color: #000000;
+    text-decoration: none;
+
+    background: none;
+    border: none;
+}
+
+
+.offcanvas{
+    background-color: rgb(248,249,250);
+    box-shadow: none;
+}
+.offcanvas a{
+    color: #000;
+}
+.offcanvas a:hover{
+    transition: 0.2s;
+    background: #bebebe !important;
+}
+.fff:hover{
+    transition: 0.2s;
+    background: #bebebe !important;
+}
+
+.theme-icon {
+
+    color: black;
+
+}
