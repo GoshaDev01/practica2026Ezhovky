@@ -13,26 +13,6 @@ $(document).ready(function() {
     const getFileSchema = () =>
         `${currentSchema}Theme.css`;
 
-    // Функция загрузки CSS
-    const loadCss = (filename, callback) => {
-        $("#theme-css").remove();
-        
-        const link = $('<link>')
-            .attr({
-                id: "theme-css",
-                rel: "stylesheet",
-                type: "text/css",
-                href: filename + "?t=" + new Date().getTime()
-            });
-        
-        if (callback) {
-            link.on('load', callback);
-        }
-        
-        $('head').append(link);
-        console.log("Loading CSS: " + filename);
-    };
-
     const updateThemeIcon = () => {
         const icon = $('.theme-icon');
         if (currentSchema === SCHEMA_LIGHT) {
