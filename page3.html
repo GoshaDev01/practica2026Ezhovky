@@ -99,8 +99,86 @@
 
                 <!-- Modal (оставляем без изменений) -->
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <!-- содержимое модального окна -->
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Poll_Gogen</h5>
+                        <button type="button" class="btn-close ggg" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+
+                        <div class="row mb-2 align-items-center ">
+                            <div class="col-4 ">Id:</div>
+                            <div class="col-8">44</div>
+                        </div>
+                    
+                        <div class="row mb-2 align-items-center">
+                            <div class="col-4 ">Email:</div>
+                            <div class="col-8">
+                                <input class="form-control form-control-sm bg-white" type="email">
+                            </div>
+                        </div>
+                    
+                        <div class="row mb-2 align-items-center">
+                            <div class="col-4 ">Auth token:</div>
+                            <div class="col-8">
+                                <input class="form-control form-control-sm bg-white" type="text">
+                            </div>
+                        </div>
+                    
+                        <div class="row mb-2 align-items-center">
+                            <div class="col-4 ">Password hash:</div>
+                            <div class="col-8">
+                                <input class="form-control form-control-sm bg-white" type="text">
+                            </div>
+                        </div>
+                    
+                        <div class="row mb-2 align-items-center">
+                            <div class="col-4 ">Роль:</div>
+                            <div class="col-8">
+                                <select class="form-select form-select-sm">
+                                    <option value="1">Пользователь</option>
+                                    <option value="2">Менеджер</option>
+                                </select>
+                            </div>
+                        </div>
+                    
+                        <div class="row mb-2 align-items-center">
+                            <div class="col-4 ">Статус:</div>
+                            <div class="col-8">
+                                <span class="badge bg-success">Active</span>
+                            </div>
+                        </div>
+                    
+                        <div class="row mb-2 align-items-center">
+                            <div class="col-4 ">Online:</div>
+                            <div class="col-8">
+                                <span class="badge bg-danger">No</span>
+                            </div>
+                        </div>
+                        <div class="row mb-2 align-items-center">
+                            <div class="col-4 ">Дата регистрации:</div>
+                            <div class="col-8">2026-04-29</div>
+                        </div>
+                    
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger me-auto" data-bs-dismiss="modal">
+                            <!--btn-danger делает кнопку красной (как primary только красная) -->
+                            Блок
+                        </button>
+
+                        <button type="button" class="btn" data-bs-dismiss="modal" style="font-size: 24px">
+                            <i class="bi bi-trash"></i>
+                        </button>
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">
+                            Сохранить
+                        </button>
+                    </div>
                 </div>
+
+            </div>
+        </div>
 
                 <!-- Поиск пользователя -->
                 <div class="card mb-4" id="target-element2">
