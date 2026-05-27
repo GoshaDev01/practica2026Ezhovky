@@ -6,7 +6,7 @@ $(document).ready(() => {
     const SCHEMA_DARK = 'dark';
 
     // Папка с css файлами
-    const pathCss = './css';
+    // const pathCss = './css';
 
     let currentSchema;
 
@@ -102,7 +102,7 @@ $(document).ready(() => {
             .attr({
                 id: 'theme-css',
                 rel: 'stylesheet',
-                href: `/${file}?t=${Date.now()}`
+                href: `${file}?t=${Date.now()}`
             });
 
         // После загрузки css
